@@ -1,0 +1,36 @@
+.header {
+    background-color: $main-bg;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+    &__logo {
+        @include flex(center,center);
+        position: absolute;
+        inset: 0;
+        height: $header-height;
+        pointer-events: none;
+
+        img {
+            height: 28px;
+        }
+    }
+
+    &__menu {
+        @include flex(center, space-between);
+        height: 100%;
+        font-size: 1.5rem;
+
+        &__mobile-toggle {
+            display: none;
+        }
+
+        &__left {
+            &__close {
+                display: none;
+            }
+        }
+    }
+}
