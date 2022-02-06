@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-2.png";
 import { ReactComponent as Menu } from "../assets/icons/menu.svg";
 import { ReactComponent as Person } from "../assets/icons/person.svg";
 import { ReactComponent as Search } from "../assets/icons/search.svg";
