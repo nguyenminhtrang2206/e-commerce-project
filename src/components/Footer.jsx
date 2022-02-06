@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="footer__about">
             <p>
               <Link to="/">
                 <img src={logo} className="footer__logo" alt="" />
