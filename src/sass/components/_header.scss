@@ -33,14 +33,14 @@
     pointer-events: none;
 
     img {
-      height: 28px;
+      height: 50px;
     }
   }
 
   &__menu {
     @include flex(center, space-between);
     height: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     &__item ~ &__item {
       margin-left: 39px;
